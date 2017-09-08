@@ -1,8 +1,9 @@
 介绍
 
-###**一、基于 MySQLdb 数据库操作封装 **
+### 一、基于 MySQLdb 数据库操作封装
 
 1、路径：common/db.py
+
 2、使用：
 ```
 from common import db
@@ -17,8 +18,10 @@ id = db_obj.insert('table_name', insert_params)
 
 ```
 
-###**一、常用函数 **
+### 一、常用函数 
+
 1、路径：common/helper.py
+
 2、使用：
 ```
 callHive(hql)
